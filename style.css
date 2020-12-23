@@ -282,6 +282,7 @@ a {
 }
 
 .banner h1 {
+  text-align: center;
   font-family: "Baloo Da 2", serif;
   font-size: 8rem;
   font-weight: 300;
@@ -295,6 +296,7 @@ a {
 }
 
 .banner p {
+  text-align: center;
   font-family: "Josefin Slab", serif;
   font-size: 4rem;
   color: #fff;
@@ -388,7 +390,10 @@ a {
   display: flex;
   justify-content: center;
 }
-
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+}
 .social-media i {
   font-size: 2.2rem;
   margin: 3rem;
@@ -526,7 +531,7 @@ a {
 
 .cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 3rem;
   margin-top: 8rem;
   width: 100%;
