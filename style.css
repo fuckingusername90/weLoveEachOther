@@ -862,7 +862,7 @@ a {
   }
 
   .cards-wrapper {
-    flex-direction: column;
+    grid-template-columns: auto auto;
     align-items: center;
     margin-top: 4rem;
   }
@@ -957,6 +957,10 @@ a {
   .banner h1 {
     font-size: 4rem;
     line-height: 5rem;
+  }
+
+  .cards-wrapper {
+    grid-auto-columns: auto;
   }
 
   .banner p {
